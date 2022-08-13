@@ -11,4 +11,12 @@
       <Folder Include="Resources" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\RemoteShell.Core\RemoteShell.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="7.0.0-preview.2.22152.2" />
+    </ItemGroup>
+
 </Project>
